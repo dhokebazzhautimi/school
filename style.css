@@ -8,8 +8,7 @@ font-family: 'Poppins', sans-serif;
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
-
+  
 
 
 
@@ -144,7 +143,13 @@ input[type=submit]:hover{
 #goals{
     display: flex;
     flex-direction: row;
-    font-family: 'Cabin Sketch' !important;
+    
+    
+}
+
+#goals h2{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4rem;
 }
 
 
@@ -171,10 +176,39 @@ input[type=submit]:hover{
     background-size: cover;
 }
 
-#news-intro{
+
+
+.newss{
+    background-color: #e9eff3;
+}
+
+
+
+.upper svg{
+    padding-top: -3rem;
+    display: block;
+    background-color: #e9eff3;
+}
+
+.newss p{
+    color: rgb(109, 108, 108);
+}
+
+.news-intro{
     text-align: center;
+    
 
 }
+
+.linfo{
+    padding-bottom: 3rem;
+}
+
+.linfo h2{
+    font-size: 2rem;
+    color: rgb(44, 43, 43);
+}
+
 
 #news {
     margin-left: 40px;
@@ -187,8 +221,8 @@ input[type=submit]:hover{
     
     width: 25%;
     overflow: hidden;
-    background-color: red;
     margin-right: 40px;
+    padding-bottom: 3rem;
 }
 
 .card img{
@@ -203,22 +237,52 @@ input[type=submit]:hover{
 }
 
 .card-info{
-    padding: 2rem 2.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 1.5rem;
+    border-radius:  0 0 0.3rem 0.3rem;
+    
+}
+
+.card-info h3{
+    color: rgb(52, 50, 50);
+    font-weight: 500;
+}
+
+
+.card-info h4{
+    font-size: 0.8rem;
+    color: rgb(155, 150, 150);
+    padding: 1rem 0;
+}
+
+.card-info p{
+    font-size: 1rem;
+    color: rgb(99, 95, 95);
 }
 
 
 #principal{
     display: flex;
     flex-direction: row;
+    
+    
+    
 }
 
 .words{
+    padding: 2rem 3rem;
     width: 50%;
+    
     background-image: linear-gradient(to bottom right, #eeaa19, #1a1a1b);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;padding-bottom: 4rem;
 }
 
 .principal-img{
     width: 50%;
+    
+
 }
 
 
@@ -226,4 +290,50 @@ input[type=submit]:hover{
 .introduction{
     display: flex;
     flex-direction: row;
+    margin: 6rem 7rem;
+
+}
+
+
+.vid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 3.5rem;
+}
+
+.vid h2{
+    font-size: 0.8rem;
+    color: #19A7CE;
+    letter-spacing: 0.3rem;
+}
+
+
+.vid h3{
+    font-size: 2.4rem;
+    color: rgb(57, 56, 56);
+}
+
+.vid p{
+    font-size: 0.8rem;
+    color: rgb(84, 82, 82);
+    font-weight: 500;
+}
+
+.infor{
+    background-color: #19A7CE;
+    padding: 2rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.infor h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.infor p{
+    padding-top: 1rem;
+    font-size: 0.9rem;
 }
